@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="calendarSettings">
+            
+            <label for="month">Miesiąc:</label>
+                <select name="month" id="month">
+                    <option value="1">Styczeń</option>
+                    <option value="2">Luty</option>
+                    <option value="3">Marzec</option>
+                    <option value="4">Kwiecień</option>
+                    <option value="5">Maj</option>
+                    <option value="6">Czerwiec</option>
+                    <option value="7">Lipiec</option>
+                    <option value="8">Sierpień</option>
+                    <option value="9">Wrzesień</option>
+                    <option value="10">Październik</option>
+                    <option value="11">Listopad</option>
+                    <option value="12">Grudzień</option>
+                </select>
+            
+
+            <label for="year">Rok:</label>
+                <select name="year" id="year">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                </select>
+            
+
+        </section>
+        <section class="dayView dayView--hidden">
+            <button class="dayView__close" aria-label="Zamknij panel dnia">&times;</button>
+            <h1 class="dayView__header"></h1>
+        </section>
+        <section class="calendarView">
+            <!-- tutaj wstawiana zawartość kalendarza -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
