@@ -42,6 +42,12 @@
         <section class="dayView dayView--hidden">
             <button class="dayView__close" aria-label="Zamknij panel dnia">&times;</button>
             <h1 class="dayView__header"></h1>
+            <button class="dayView__addTaskBtn" data-date="x"; aria-label="Dodaj zadanie dla dnia">Dodaj zadanie</button>
+            <form class="addTaskForm hidden">
+                <label>Nazwa: <input type="text" name="addTaskForm__name" /></label>
+                <label>Godzina: <input type="time" name="addTaskForm__time" /></label>
+                <input type="submit" value="Dodaj" />
+            </form>
         </section>
         <section class="calendarView">
             <!-- tutaj wstawiana zawartość kalendarza -->
